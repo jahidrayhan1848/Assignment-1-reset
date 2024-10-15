@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Azeret Mono", monospace;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* Header section csss start */
+.header-section {
+  padding: 24px 0;
+}
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo a {
+  text-decoration: none;
+  color: #0d1321;
+  font-weight: bold;
+  font-size: 32px;
+}
+.btn-resume a {
+  text-decoration: none;
+  color: #0d1321;
+  border: 2px solid #ddd;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+/* Header section css end */
+/* Hero section css start */
+.hero-section {
+  height: 80vh;
+  background-image: url(./assets/Hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content {
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  margin: 18px 0;
+}
+.hero-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.hero-content a {
+  text-decoration: none;
+  background-color: #0d1321;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 4px;
+  color: #fff;
+}
+/* Hero section css end */
+/* Why section css start */
+.why-section {
+  padding: 60px 0;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 54px;
+}
+.title h2 {
+}
+.title p {
+  line-height: 1.5;
+  margin-top: 10px;
+}
+
+.step-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.step-content {
+  width: 50%;
+}
+.step-img {
+  width: 50%;
+}
+.step-img {
+  text-align: right;
+}
+.step-content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+.step-content p {
+  margin: 16px 0;
+  line-height: 1.5;
+}
+.step-content a {
+  text-decoration: none;
+  color: #0d1321;
+  border: 2px solid #ddd;
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 4px;
+}
+.step-img-2 {
+  text-align: left;
+}
+/* Why section css end */
+/* Inspiration section start */
+.target-section {
+  padding: 60px 0;
+}
+.topics-row {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+.card {
+  background-color: #f2f6fe;
+  padding: 10px;
+  border-radius: 4px;
+}
+.card img {
+}
+.card p {
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+.card a {
+  color: #0d1321;
+  font-weight: 700;
+}
+.card h3 {
+  margin: 20px 0;
+}
+.video {
+  text-align: center;
+}
+/* Inspiration section end */
+
+/* Course section css */
+.next-target-section {
+  padding: 60px 0;
+}
+.course-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #ddd;
+  padding: 32px;
+  gap: 48px;
+  margin-bottom: 20px;
+}
+.course-logo {
+  width: 25%;
+}
+.course-logo img {
+}
+.course-content {
+}
+.course-content h4 {
+  font-size: 20px;
+}
+.course-content p {
+  line-height: 1.5;
+  margin: 20px 0;
+}
+.course-content a {
+  color: #0d1321;
+  font-weight: 700;
+}
+
+/* Subscribe section start */
+.email-subscribe {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/handshake.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 60px 0;
+}
+.email-area {
+  text-align: center;
+}
+.input-field {
+  padding: 10px;
+}
+input.btn-submit {
+  padding: 10px 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+.email-title {
+  color: #fff;
+}
+.email-description {
+  color: #fff;
+}
+.subscribe-section {
+  margin-bottom: 60px;
+}
+
+/* Subscribe section end */
+
+.footer-section {
+  padding: 14px 0;
+}
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+}
+.copyright-text {
+}
+.copyright-text p {
+}
+
+.icon {
+}
+.icon ul {
+  list-style: none;
+  display: flex;
+  gap: 14px;
+}
+.icon ul li {
+}
+.icon ul li a {
+  font-size: 20px;
+}
